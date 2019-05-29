@@ -1,0 +1,44 @@
+label {
+    display: inline-block;
+    font: 1rem 'Roboto','Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+body {
+    /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
+    background-color: #f5f5f5;
+    color: #364f6b;
+}
+#overeatting-warning {
+    color: red;
+    display: none;
+}
+
+h2, h1, h3
+{
+    color: #fc5185;
+    font-family: 'PT Serif', sans-serif;
+}
+
+.btn {
+    background-color: #3fc1c9;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 4px;
+    padding: 6px;
+    cursor: pointer;
+    margin: 5px;
+    color: whitesmoke;
+    
+}
+
+.btn:hover {
+    background-color: #26cad4;
+}
+
+.btn:active {
+    background-color: #06a8b1;
+}
